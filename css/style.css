@@ -34,3 +34,12 @@ nav a {
   text-decoration: none;
   color: #fff;
 }
+
+.showcase-box {
+  display: flex;
+  gap: 72px;
+  padding: 0px 144px;
+}
+.showcase-item {
+  height: 450px;
+}
