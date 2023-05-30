@@ -1,3 +1,21 @@
 header {
+  min-height: 650px;
   background-image: url(../assets/img/bgimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
 }
