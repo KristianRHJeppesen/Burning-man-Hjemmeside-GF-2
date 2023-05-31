@@ -49,10 +49,10 @@ h2 {
 }
 
 header {
-  max-height: 650px;
+  height: 650px;
   background-image: url(../assets/img/bgimage.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,8 +72,25 @@ nav a {
 .showcase-box {
   display: flex;
   gap: 72px;
-  padding: 144px 144px;
+  margin: 72px 144px;
 }
 .showcase-item {
   height: 450px;
+}
+
+.collage-box {
+  width: 600px;
+  height: auto;
+  margin: 72px 144px;
+  display: flex;
+}
+
+.collage-item-small {
+  width: 100px;
+  height: 100px;
+}
+
+.collage-item-large {
+  width: 100px;
+  height: 200px;
 }
