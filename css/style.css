@@ -78,15 +78,39 @@ nav a {
   height: 450px;
 }
 
-.collage-box {
-  width: 1600px;
-  height: auto;
-  margin: 72px 144px;
+.collage {
   display: flex;
+  justify-content: center;
 }
 
-.collage-item {
-  background-color: black;
+.image-container {
+  max-width: 1300px;
+  width: 80%;
+  max-width: fit-content;
+  border: 3px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.imglarge {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.imgsmall {
   height: 200px;
   width: auto;
+}
+
+.collage img {
+  height: inherit;
+  width: auto;
+}
+
+.imgsmall img {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 1;
 }
