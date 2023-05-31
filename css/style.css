@@ -79,18 +79,14 @@ nav a {
 }
 
 .collage-box {
-  width: 600px;
+  width: 1600px;
   height: auto;
   margin: 72px 144px;
   display: flex;
 }
 
-.collage-item-small {
-  width: 100px;
-  height: 100px;
-}
-
-.collage-item-large {
-  width: 100px;
+.collage-item {
+  background-color: black;
   height: 200px;
+  width: auto;
 }
