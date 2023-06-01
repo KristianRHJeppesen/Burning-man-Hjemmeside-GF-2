@@ -56,6 +56,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-self: center;
 }
 
 nav {
@@ -69,22 +70,32 @@ nav a {
   color: #fff;
 }
 
+.selected {
+  color: rgba(203, 203, 203, 0.737);
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  margin: 0px 200px;
+}
+
 .showcase-box {
   display: flex;
   gap: 72px;
-  margin: 72px 144px;
 }
+
 .showcase-item {
   height: 450px;
 }
 
 .collage {
+  margin-top: 200px;
   display: flex;
   justify-content: center;
 }
 
 .collage-container {
-  border: 2px solid red;
   width: 80%;
   max-width: 920px;
   display: flex;
@@ -92,8 +103,6 @@ nav a {
 }
 
 .collage-column {
-  background-color: greenyellow;
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   min-height: fit-content;
@@ -101,8 +110,6 @@ nav a {
 }
 
 .image {
-  background-color: blue;
-  border: 2px solid cyan;
   width: 300px;
 }
 
@@ -110,5 +117,26 @@ nav a {
   width: inherit;
 }
 
-.img1 img {
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 144px;
+  margin-top: 200px;
+  background-color: black;
+  color: #fff;
+}
+
+.legal {
+  display: flex;
+  gap: 50px;
+}
+
+.copyrights {
+  display: flex;
+  gap: 10px;
+}
+.copyrights i {
+  font-style: normal;
+  font-size: larger;
 }
