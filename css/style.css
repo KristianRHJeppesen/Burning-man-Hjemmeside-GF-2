@@ -77,3 +77,38 @@ nav a {
 .showcase-item {
   height: 450px;
 }
+
+.collage {
+  display: flex;
+  justify-content: center;
+}
+
+.collage-container {
+  border: 2px solid red;
+  width: 80%;
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collage-column {
+  background-color: greenyellow;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  justify-content: space-between;
+}
+
+.image {
+  background-color: blue;
+  border: 2px solid cyan;
+  width: 300px;
+}
+
+.image img {
+  width: inherit;
+}
+
+.img1 img {
+}
