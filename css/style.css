@@ -56,7 +56,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-self: center;
 }
 
 nav {
@@ -115,6 +114,7 @@ nav a {
 
 .image img {
   width: inherit;
+  padding: 2.5px;
 }
 
 footer {
